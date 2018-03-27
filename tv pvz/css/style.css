@@ -1,0 +1,134 @@
+body{
+        background-image:
+         url("https://walter.trakt.tv/images/movies/000/016/662/fanarts/full/d02c86e1f7.jpg.webp");
+         width: 100%;
+         height: 100%;
+         background-size: cover;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+#header{
+    background: linear-gradient(50deg, #000000, #808080, #000000); 
+    color: white;
+}
+#navigation1 ul.lvl_1 li.lvl_1, #navigation2 ul.lvl_2 li.lvl_2, #navigation3 {
+    list-style:none;
+    background-color: none;
+    color: #ffffff;
+    display:inline-block;
+    vertical-align: middle;
+    font-size:16px;	
+	margin-top: 25px;
+    margin-right: 20px
+}
+ul.lvl_1 li.lvl_1 a {
+	text-decoration: none;
+    display:block;
+    padding-left:5px;
+	padding-right: 5px;
+    color: #ffffff;
+}
+ul.lvl_2 li.lvl_2 a{
+    text-decoration: none;
+    display:block;
+    padding-left:5px;
+	padding-right: 5px;
+    color: #ffffff;
+}
+.pirma-ikona{
+	position: relative;
+}
+.search-field{
+	display: none;
+	position: absolute;
+	top: 15px;
+	left: 90px;
+	z-index: 10;
+	width: 200px;
+}
+.lvl_3{
+	position: relative;
+}
+.logform{
+	display: none;
+	position: absolute;
+	left: -60px;
+	z-index: 10;
+	width: 200px;
+	
+
+}
+#navigation2 ul li :hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.join-forma{
+	display: none;
+	background-color: #b3c6ff;
+	padding: 15px;
+	position: absolute;
+	top: 100px;
+    right: 20px;
+	width: 300px;
+	height: 350px;
+	z-index: 100;
+}
+.lvl_3 a{
+    text-decoration: none;
+    display:block;
+    padding-left:5px;
+	padding-right: 5px;
+    color: #ffffff;
+}
+.c-l{
+    margin-top: 150px;
+    position: relative;
+}
+.c-l h2{
+    float: right;
+    color:white;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+}
+.c-2{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.c-3{
+    background-color: red;
+    margin-top: 35px;
+    padding: 5px;
+   
+}
+.c-3 a{
+    color: white;
+    font-size: 10px;
+    padding-left: 2px; 
+}
+.c-4 h5{
+    color: white;
+    font-size: 8px;
+    margin-top: 60px;
+
+}
+.c-5 ul{
+    padding-left: 75px;
+}
+.c-5 ul li{
+    list-style:none;
+    background-color: none;
+    display:inline-block;
+    vertical-align: middle;
+    font-size:16px;	
+    padding-right: 5px;
+	margin-top: 25px;
+    margin-right: 20px
+}
+.c-5 ul li :hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
